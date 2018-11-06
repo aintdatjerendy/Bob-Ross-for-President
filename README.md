@@ -1,1 +1,0 @@
-# Bob-Ross-for-President
