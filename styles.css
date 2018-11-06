@@ -1,0 +1,74 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#donate h2 {text-shadow: 2px 2px #FFFFFF;}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+    
+#header, #donate, #eagles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#header {
+    color: white;
+    background-image: url("https://steamusercontent-a.akamaihd.net/ugc/96105795505265477/3E74723E5EA794EF4A2E9FA6D710E9DEFD28340C/");
+    
+}
+
+#donate {
+    background: white;
+    background-image: url("https://media.giphy.com/media/l0CLUrZiblFUBMMrC/source.gif");
+}
+#eagles {
+    background: blue;
+    color: white;
+    background-image: url("https://media.giphy.com/media/ChJCHqqyHpkY/giphy.gif");
+}
+
+#pics img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#donate button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: blue;
+    color: black;
+}
